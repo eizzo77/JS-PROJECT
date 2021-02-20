@@ -8,7 +8,7 @@ const convertBinMap = (arr) =>
     .reverse()
     .map((x, i) => x * 2 ** i)
     .reduce((a, b) => a + b);
-
+// classic
 const convertToBinClassic = (arr) => {
   let sum = 0;
   for (let i = 0; i < arr.length; ++i) {

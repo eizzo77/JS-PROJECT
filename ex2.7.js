@@ -37,7 +37,7 @@ const doBasicMathSwitch = (operator, num1, num2) => {
 
 console.log(tester.test(doBasicMath("*", 2, 3), 6));
 console.log(tester.test(doBasicMath("-", 15, 10), 5));
-console.log(tester.test(doBasicMath("+", 0, 0), 0.00000000000000001));
+console.log(tester.test(doBasicMath("+", 0, 0), 0.00000000000000001)); // false.. returns 0
 console.log(tester.test(doBasicMath("^", 20, 2), "invalid operator"));
 console.log(tester.test(doBasicMath("/", 20, 0), "can't divide by Zero!"));
 console.log(
